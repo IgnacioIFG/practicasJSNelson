@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ValIndex.css">
+    <script defer src="./ValIndex.js"></script>
+  
+    <title>Validaciones</title>
+    
+</head>
+<body>
+    <form action="#" method="get" class="formularioComp" id="formularioComp">
+        <input type="text" name="nombre" id="nombre" placeholder="Inserte su nombre">
+        <small id="errorNombre" class="no-error-text">Nombre Incorrecto</small>
+
+        <input type="password" name="pass" id="pass" placeholder="Insert contraseña">
+        <small id="errorPass" class="no-error-text">contraseña Incorrecto</small>
+
+        <div>
+            <input type="radio" name="genero" value="F" checked>Femenino
+            <input type="radio" name="genero" value="M">Masculino
+        </div>
+
+        <input type="submit" value="enviar" id="btn-submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Index.css">
+    <script defer src="./Index.js"></script>
+    <title>Ejercicio 33</title>
+</head>
+<body>
+
+    <form action="#" method="get" class="formulario" id="formulario">
+        
+        <input type="text" class="custom-texto" id="nombre" name="nombre" placeholder="Nombre"  maxlength="10">
+
+        <small id="errorNombre" class="no-error-text">Por favor completa el nombre</small>
+       
+        <input type="email" class="custom-texto" id="mail" name="correo"  placeholder="Correo electrónico">
+        <small id="errorEmail" class="no-error-text">Por favor complete el mail</small>
+        
+        <div>
+          <input class="custom-radio" type="radio" id="hombreR" name="genero" value="Hombre" required>
+          <label for="hombreR">Hombre</label>
+          
+          <input class="custom-radio" type="radio" id="mujerR" name="genero" value="mujer" >
+          <label for="mujerR">Mujer</label>
+          <small id="errorSexo" class="no-error-text">Por favor determine sexo</small>
+        </div>
+      
+        <div>
+          <input type="checkbox" name="terminos" id="terminos" >
+          <label for="terminos">Acepto términos y condiciones</label>
+          <small id="errorterminos" class="no-error-text">Por favor complete los terminos y condiciones</small>
+    
+        </div>
+          <!-- <ul class="lista" id="errorList"> 
+            <li><small id="errorNombre" class="no-error-text">Por favor completa el nombre</small></li>
+            <li><small id="errorEmail" class="no-error-text">Por favor complete el mail</small></li>
+            <li><small id="errorSexo" class="no-error-text">Por favor determine sexo</small></li>
+            <li><small id="errorterminos" class="no-error-text">Por favor complete los terminos y condiciones</small></li>
+
+        </ul>-->
+
+        <input type="submit" value="Enviar" class="boton">
+      </form>
+      
+    
+</body>
+</html>

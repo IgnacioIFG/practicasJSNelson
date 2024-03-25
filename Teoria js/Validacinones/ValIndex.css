@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formularioComp{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 0.5rem;
+    gap: 1rem;
+    background-color: cornflowerblue;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* oculta los textos de error, tambien podria no existir esto y hacerse desde el javascript */
+.error-text{
+    color: crimson;
+    visibility: visible;
+}
+.no-error-text{
+    visibility: hidden;
+}
